@@ -31,7 +31,10 @@ h1 {
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer; 
+    transition: transform .5s ease-in-out;
 }
+
+/*--SELECT ALL SQUARES IN THE ARRAY--*/
 
 /*--- SELECT ALL SQUARES PARAGRAPHES IN THE ARRAY--*/
 
@@ -66,7 +69,7 @@ h1 {
 /*--HOVER, TRANSLATE & TRANSFORM EFFECTS--*/
 
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("../image/Icons/shevamp.png");
+    background-image: url("../images/Icons/vampire_fangs.png");
 }
 
 .squares:nth-child(1):hover {
@@ -92,8 +95,8 @@ h1 {
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
-    animation-interation-count: infinite;
-    animation-timing-funtion: cubic-bezier(2.5, .2, .3, 2);
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 }
 
 .squares:nth-child(1):hover {
@@ -117,7 +120,7 @@ h1 {
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("../images/Icons/shevamp.png")
+        background-image: url("../image/Icons/vampire_fangs.png")
     }
     50% {
         tranform: translateY(300px);
