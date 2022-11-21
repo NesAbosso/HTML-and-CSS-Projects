@@ -22,7 +22,7 @@ h1 {
 /* --SELECT ALL SQUARES IN THE ARRAY--*/
 
 .container .squares:nth-child(-n+4) {
-    background-image: url("../images/Icons/vampire_fangs.png");
+    background-image: url("../images/Icons/smileyface2.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -69,7 +69,7 @@ h1 {
 /*--HOVER, TRANSLATE & TRANSFORM EFFECTS--*/
 
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("../images/Icons/vampire_fangs.png");
+    background-image: url("../images/Icons/smileyface1.png");
 }
 
 .squares:nth-child(1):hover {
@@ -91,7 +91,7 @@ h1 {
 /*--HOVER< TRANSLATE & TRANSFORM EFFECTS__*/
 
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("../image/Icons/vampire_fangs.png");
+    background-image: url("../image/Icons/smileyface1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -120,7 +120,7 @@ h1 {
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("../image/Icons/vampire_fangs.png")
+        background-image: url("../image/Icons/smileyface1.png")
     }
     50% {
         tranform: translateY(300px);
