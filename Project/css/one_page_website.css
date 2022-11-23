@@ -1,0 +1,12 @@
+.myDiv {
+    border: 5px outset pink;
+    background-color: lightblue;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+}
+
+nav {
+    display: block;
+}
+
