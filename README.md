@@ -5,7 +5,7 @@ Projects
 Thw cat cafe clue Site.
 Florida Vacations site.
 
-The cat cafe clue.
+The cat cafe club.
 
 This page is an example home page for a cat cafe. It's styled using CSS and contains a navbar, image containers, and a form.
 
